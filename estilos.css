@@ -55,7 +55,6 @@ nav {
     top: 0;
     z-index: 100;
     transition: ease-in-out 0.5s;
-
 }
 
 .nav {
@@ -542,11 +541,12 @@ footer {
         align-items: center;
         flex-direction: column;
         justify-content: space-evenly;
-        clip-path: circle(0.1% at 100% 0)
+        clip-path: circle(0.0% at 100% 0);
+        transition: ease-in-out 0.5s;
     }
 
     .nav .menudos {
-        clip-path: circle(128.3% at 100% 0);
+        clip-path: circle(133.8% at 100% 0);
     }
 
     .nav .enlaces-header a {
