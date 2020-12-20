@@ -89,7 +89,6 @@ nav {
     width: 80px;
     height: 80px;
     display: none;
-    background: #ffffff;
     text-align: center;
     z-index: 100;
     cursor: pointer;
@@ -546,7 +545,7 @@ footer {
     }
 
     .nav .menudos {
-        clip-path: circle(133.8% at 100% 0);
+        clip-path: circle(150% at 100% 0);
     }
 
     .nav .enlaces-header a {
